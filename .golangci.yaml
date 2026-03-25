@@ -1,0 +1,21 @@
+run:
+  timeout: 3m
+
+linters:
+  enable:
+    - errcheck
+    - govet
+    - ineffassign
+    - misspell
+    - revive
+    - staticcheck
+    - unused
+
+linters-settings:
+  revive:
+    rules:
+      - name: package-comments
+        disabled: true
+
+issues:
+  exclude-use-default: false

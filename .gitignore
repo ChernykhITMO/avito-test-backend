@@ -1,0 +1,11 @@
+bin/
+dist/
+.DS_Store
+coverage.out
+*.log
+*.test
+*.out
+vendor/
+.env
+.gocache/
+.idea/
